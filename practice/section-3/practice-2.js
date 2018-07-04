@@ -8,9 +8,10 @@ function createUpdatedCollection(collectionA, objectB) {
         if(collectionA[j].count >= 3){
           var perthree=parseInt(collectionA[j].count/3);
           collectionA[j].count -= perthree;
-        }else {
-          collectionA[j].count--;
         }
+//        else {
+//          collectionA[j].count--;//小于3需要操作吗？
+//        }
         break;
       }
     }
